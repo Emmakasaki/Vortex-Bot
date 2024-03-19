@@ -1,37 +1,39 @@
 # Vortex Bot
 
-Vortex Bot is a Discord bot built with Discord.js.
+Vortex Bot is a Discord bot made with discord.js. It provides several commands to enhance your Discord server experience.
+
+## Commands
+
+- `restart`: Restarts the bot.
+- `echo <message> <channel>`: Repeats the given message in a channel you wish to put it in.
+- `info <user> or server`: Displays information about the user you chose or the current server.
+- `ping`: Checks the bot's latency.
 
 ## Installation
 
-To install and set up Vortex Bot, follow these steps:
+1. Clone this repository.
+2. Install the required dependencies by running the following command:
 
-1. Clone the repository: `git clone https://github.com/your-username/vortex-bot.git`
-2. Install dependencies: `npm install`
+    ```markdown
+    npm install
+    ```
+
 3. Create a `.env` file in the root directory and add your Discord bot token:
+
+    ```markdown
+    DISCORD_TOKEN=your_bot_token_here
     ```
-    DISCORD_TOKEN=your-discord-bot-token
+
+4. Start the bot by running the following command:
+
+    ```markdown
+    node index.js
     ```
-4. Start the bot: `node index.js`
 
-### Usage
+## Contributing
 
-To use Vortex Bot, you can use the following commands:
+Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
 
-- `!help`: Display the list of available commands.
-- `!ping`: Check the bot's latency.
-- `!say [message]`: Make the bot say a message.
+## License
 
-### Contributing
-
-Contributions to Vortex Bot are welcome! If you would like to contribute, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Make your changes and commit them: `git commit -m 'Add your feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Submit a pull request.
-
-### License
-
-Vortex Bot is distributed under the MIT License. See the [LICENSE](https://github.com/your-username/vortex-bot/blob/main/LICENSE) file for more information.
+This project is licensed under the [MIT License](LICENSE).
