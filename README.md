@@ -20,8 +20,10 @@ Vortex Bot is a Discord bot made with discord.js. It provides several commands t
 
 3. Create a `.env` file in the root directory and add your Discord bot token:
 
-    ```markdown
-    DISCORD_TOKEN=your_bot_token_here
+    ```json
+    {
+        "token": "YOUR_TOKEN_HERE"
+    }
     ```
 
 4. Start the bot by running the following command:
