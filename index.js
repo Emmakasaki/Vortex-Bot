@@ -53,21 +53,6 @@ for (const file of eventFiles) {
 }
 
 
-/*var request = require('request')
-var options = {
-    uri: `https://anilist.co/api/v2/oauth/token`,
-    methods: 'POST',
-    headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-    },
-    json: {
-        'grant type': 'authorization_code',
-        'client_id': '16617',
-        'client_secret': 'tFrPo8rrfxnaYsERTe9Wbij6VnKUvXIyCCRqvskW',
-        'recirect_url':
-    }
-};*/
 
 
 client.login(token)
